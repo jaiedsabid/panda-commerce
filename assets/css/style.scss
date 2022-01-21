@@ -5,3 +5,19 @@
 #categories img {
     width: 100px;
 }
+
+#categories div > div {
+    transition: all 0.3s ease-in-out;
+}
+
+#categories div > div:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

@@ -5,4 +5,24 @@
 #categories img {
   width: 100px;
 }
+
+#categories div > div {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#categories div > div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.card {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
 /*# sourceMappingURL=style.css.map */
